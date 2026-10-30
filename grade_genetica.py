@@ -186,7 +186,7 @@ class Problema:
                     if blocos_turno:
                         atraso += sum(bloco - inicio_turno for bloco in blocos_turno)
                         janelas += sum(1 for bloco in range(min(blocos_turno), max(blocos_turno) + 1)
-                                       if bloco not in blocos_turno and bloco not in (3, 9))
+                                       if bloco not in blocos_turno)
                 for i, disciplina in enumerate(self.disciplinas):
                     if disciplina["periodo"] != periodo_turma or disciplina.get("online", False):
                         continue
@@ -396,7 +396,7 @@ def gerar_html(problema, alocacoes, avaliacao, execucao):
               f"<p>Conflitos: <b>{avaliacao.conflitos}</b> | Janelas: {avaliacao.janelas} | ",
               f"Geracoes: {execucao['geracoes_executadas']} | Tempo: {execucao['tempo_segundos']} s</p>",
               "<p>Matriz e docentes COCIC-SH 2026/2. Optativa selecionada: Empreendedorismo.</p>",
-              "<p>Intervalos: 09:10-09:30 e 15:30-15:50. Almoco: 12:50-13:00. "
+              "<p>Intervalos: 10:00-10:20 e 15:30-15:50. Almoco: 12:50-13:00. "
               "Cada disciplina tem no maximo tres aulas no mesmo dia.</p>"]
     for periodo in range(1, 5):
         partes.append(f"<h2>{periodo}o periodo</h2><table><tr><th>Horario</th>")
