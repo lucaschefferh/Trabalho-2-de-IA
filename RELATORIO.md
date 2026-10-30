@@ -3,7 +3,7 @@
 ## Geração de Grade Horária com Algoritmo Genético
 
 **Repositório:** https://github.com/lucaschefferh/Trabalho-2-de-IA
-**Disciplina:** Fundamentos de Sistemas Inteligentes UTFPR Câmpus Santa Helena
+**Disciplina:** Fundamentos de Inteligência Artificial UTFPR Câmpus Santa Helena
 **Docente:** Thiago Naves
 **Alunos:** Lucas Scheffer Hundsdorfer (RA 2651149) e Gabriel Lima Scheffler (RA 2677180)
 
