@@ -1,0 +1,60 @@
+﻿periodo,codigo,disciplina,professor,encontro,dia,horario
+1,CC1AED1,Algoritmos e Estrutura de Dados I,Anderson Brilhador,1,Segunda,13:00-13:50
+1,MA1FM,Fundamentos de Matematica,Joao Augusto Navarro Cossich,1,Segunda,14:40-15:30
+1,MA1LM,Logica Matematica,Davi Marcondes Rocha,2,Segunda,16:40-17:30
+1,HU1LA,Linguagem Academica,Vera Lucia Vasilevski dos Santos Araujo,2,Terca,13:00-13:50
+1,CC1MBD,Modelagem de Banco de Dados,Leiliane Pereira de Rezende,1,Terca,13:50-14:40
+1,MA1FM,Fundamentos de Matematica,Joao Augusto Navarro Cossich,2,Terca,15:50-16:40
+1,CC1MBD,Modelagem de Banco de Dados,Leiliane Pereira de Rezende,2,Quarta,13:00-13:50
+1,CC1ICC,Introducao a Ciencia da Computacao,Giuvane Conti,2,Quarta,14:40-15:30
+1,HU1LA,Linguagem Academica,Vera Lucia Vasilevski dos Santos Araujo,1,Quarta,15:50-16:40
+1,CC1AED1,Algoritmos e Estrutura de Dados I,Anderson Brilhador,2,Quinta,13:00-13:50
+1,MA1LM,Logica Matematica,Davi Marcondes Rocha,1,Quinta,14:40-15:30
+1,CC1AED1,Algoritmos e Estrutura de Dados I,Anderson Brilhador,3,Sexta,13:00-13:50
+1,CC1ICC,Introducao a Ciencia da Computacao,Giuvane Conti,1,Sexta,14:40-15:30
+2,MA2MA,Matematica Aplicada,Evandro Alves Nakajima,2,Segunda,07:30-08:20
+2,CC2AED2,Algoritmos e Estrutura de Dados II,Djonatham Caua Fritzen Christ,1,Segunda,09:10-10:00
+2,CC2POO,Programacao Orientada a Objetos,Giuvane Conti,1,Terca,08:20-09:10
+2,CC2ER,Engenharia de Requisitos,Davi Marcondes Rocha,1,Terca,10:20-11:10
+2,CC2CLD,Circuitos Logicos Digitais,Gloria Patricia Lopez Sepulveda,1,Quarta,08:20-09:10
+2,CC2AED2,Algoritmos e Estrutura de Dados II,Djonatham Caua Fritzen Christ,2,Quarta,10:20-11:10
+2,CC2CLD,Circuitos Logicos Digitais,Gloria Patricia Lopez Sepulveda,2,Quinta,07:30-08:20
+2,CC2POO,Programacao Orientada a Objetos,Giuvane Conti,2,Quinta,09:10-10:00
+2,CC2ER,Engenharia de Requisitos,Davi Marcondes Rocha,2,Sexta,08:20-09:10
+2,MA2MA,Matematica Aplicada,Evandro Alves Nakajima,1,Sexta,10:20-11:10
+2,OPHE,Empreendedorismo,Paula Regina Zarelli,1,Sexta,13:00-13:50
+3,CC3ES,Engenharia de Software,Wellington de Souza Ferreira,1,Segunda,13:00-13:50
+3,CC3AED3,Algoritmos e Estrutura de Dados III,Thiago Franca Naves,2,Segunda,14:40-15:30
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,1,Segunda,17:30-18:20
+3,MA3CA,Calculo Aplicado,Vanderlea de Lima Inaba,1,Terca,13:00-13:50
+3,CC3AED3,Algoritmos e Estrutura de Dados III,Thiago Franca Naves,1,Terca,14:40-15:30
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,2,Terca,17:30-18:20
+3,CC3AOC,Arquitetura e Organizacao de Computadores,Djonatham Caua Fritzen Christ,3,Quarta,13:00-13:50
+3,MA3AL,Algebra Linear,Evandro Alves Nakajima,1,Quarta,14:40-15:30
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,3,Quarta,17:30-18:20
+3,CC3AOC,Arquitetura e Organizacao de Computadores,Djonatham Caua Fritzen Christ,2,Quinta,13:00-13:50
+3,CC3ES,Engenharia de Software,Wellington de Souza Ferreira,2,Quinta,14:40-15:30
+3,MA3AL,Algebra Linear,Evandro Alves Nakajima,2,Quinta,16:40-17:30
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,4,Quinta,17:30-18:20
+3,CC3AOC,Arquitetura e Organizacao de Computadores,Djonatham Caua Fritzen Christ,1,Sexta,13:00-13:50
+3,MA3CA,Calculo Aplicado,Vanderlea de Lima Inaba,2,Sexta,14:40-15:30
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,5,Sexta,17:30-18:20
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,6,Sabado,07:30-08:20
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,7,Sabado,08:20-09:10
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,8,Sabado,09:10-10:00
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,9,Sabado,10:20-11:10
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,10,Sabado,11:10-12:00
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,11,Sabado,12:00-12:50
+3,CC3PI1,Projeto Integrador I: Computacao e Educacao,Agnaldo da Costa,12,Sabado,13:00-13:50
+4,CC4PO,Pesquisa e Ordenacao,Gloria Patricia Lopez Sepulveda,2,Segunda,07:30-08:20
+4,CC4LBD,Laboratorio de Banco de Dados,Leiliane Pereira de Rezende,1,Segunda,09:10-10:00
+4,CC4IHC,Interacao Humano Computador,Wellington de Souza Ferreira,1,Terca,07:30-08:20
+4,MA4PE,Probabilidade e Estatistica,Joao Augusto Navarro Cossich,1,Terca,09:10-10:00
+4,CC4PO,Pesquisa e Ordenacao,Gloria Patricia Lopez Sepulveda,1,Terca,11:10-12:00
+4,MA4PE,Probabilidade e Estatistica,Joao Augusto Navarro Cossich,2,Quarta,08:20-09:10
+4,CC4IHC,Interacao Humano Computador,Wellington de Souza Ferreira,2,Quarta,10:20-11:10
+4,CC4RC,Redes de Computadores,Agnaldo da Costa,1,Quinta,08:20-09:10
+4,CC4SO,Sistemas Operacionais,Agnaldo da Costa,2,Quinta,10:20-11:10
+4,CC4LBD,Laboratorio de Banco de Dados,Leiliane Pereira de Rezende,2,Sexta,07:30-08:20
+4,CC4SO,Sistemas Operacionais,Agnaldo da Costa,1,Sexta,09:10-10:00
+4,CC4RC,Redes de Computadores,Agnaldo da Costa,2,Sexta,11:10-12:00

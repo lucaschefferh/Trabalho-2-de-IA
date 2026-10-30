@@ -1,0 +1,3689 @@
+{
+  "gerado_em": "2026-10-29T18:27:17",
+  "fonte_dados": "Matriz e docentes de Ciencia da Computacao da UTFPR campus Santa Helena, 2026/2, fornecidos pelo usuario. Foi selecionada a optativa Empreendedorismo. Os pre-requisitos foram inferidos pela sequencia curricular porque a tabela fornecida nao os informa.",
+  "configuracao": {
+    "dados": "dados/disciplinas.json",
+    "populacao": 200,
+    "geracoes": 1000,
+    "min_geracoes": 500,
+    "taxa_mutacao": 0.04,
+    "taxa_cruzamento": 0.9,
+    "torneio": 3,
+    "elitismo": 2,
+    "paciencia": 150,
+    "tempo_maximo": 3600.0,
+    "seed": 42
+  },
+  "execucao": {
+    "geracoes_executadas": 500,
+    "geracao_melhor_solucao": 296,
+    "tempo_segundos": 134.837,
+    "motivo_parada": "solucao sem conflitos e convergencia"
+  },
+  "avaliacao": {
+    "conflitos_periodo": 0,
+    "conflitos_professor": 0,
+    "conflitos_pre_requisito": 0,
+    "encontros_mesmo_dia": 0,
+    "sequencias_longas": 0,
+    "conflitos_sala": 0,
+    "excesso_categoria": 0,
+    "janelas": 0,
+    "atraso": 190
+  },
+  "conflitos_totais": 0,
+  "conflitos_detalhados": [],
+  "alocacoes": [
+    {
+      "periodo": 1,
+      "codigo": "CC1AED1",
+      "disciplina": "Algoritmos e Estrutura de Dados I",
+      "professor": "Anderson Brilhador",
+      "encontro": 1,
+      "dia": "Segunda",
+      "horario": "13:00-13:50",
+      "slot": 6,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "MA1FM",
+      "disciplina": "Fundamentos de Matematica",
+      "professor": "Joao Augusto Navarro Cossich",
+      "encontro": 1,
+      "dia": "Segunda",
+      "horario": "14:40-15:30",
+      "slot": 8,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "MA1LM",
+      "disciplina": "Logica Matematica",
+      "professor": "Davi Marcondes Rocha",
+      "encontro": 2,
+      "dia": "Segunda",
+      "horario": "16:40-17:30",
+      "slot": 10,
+      "duracao": 1
+    },
+    {
+      "periodo": 1,
+      "codigo": "HU1LA",
+      "disciplina": "Linguagem Academica",
+      "professor": "Vera Lucia Vasilevski dos Santos Araujo",
+      "encontro": 2,
+      "dia": "Terca",
+      "horario": "13:00-13:50",
+      "slot": 18,
+      "duracao": 1
+    },
+    {
+      "periodo": 1,
+      "codigo": "CC1MBD",
+      "disciplina": "Modelagem de Banco de Dados",
+      "professor": "Leiliane Pereira de Rezende",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "13:50-14:40",
+      "slot": 19,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "MA1FM",
+      "disciplina": "Fundamentos de Matematica",
+      "professor": "Joao Augusto Navarro Cossich",
+      "encontro": 2,
+      "dia": "Terca",
+      "horario": "15:50-16:40",
+      "slot": 21,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "CC1MBD",
+      "disciplina": "Modelagem de Banco de Dados",
+      "professor": "Leiliane Pereira de Rezende",
+      "encontro": 2,
+      "dia": "Quarta",
+      "horario": "13:00-13:50",
+      "slot": 30,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "CC1ICC",
+      "disciplina": "Introducao a Ciencia da Computacao",
+      "professor": "Giuvane Conti",
+      "encontro": 2,
+      "dia": "Quarta",
+      "horario": "14:40-15:30",
+      "slot": 32,
+      "duracao": 1
+    },
+    {
+      "periodo": 1,
+      "codigo": "HU1LA",
+      "disciplina": "Linguagem Academica",
+      "professor": "Vera Lucia Vasilevski dos Santos Araujo",
+      "encontro": 1,
+      "dia": "Quarta",
+      "horario": "15:50-16:40",
+      "slot": 33,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "CC1AED1",
+      "disciplina": "Algoritmos e Estrutura de Dados I",
+      "professor": "Anderson Brilhador",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "13:00-13:50",
+      "slot": 42,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "MA1LM",
+      "disciplina": "Logica Matematica",
+      "professor": "Davi Marcondes Rocha",
+      "encontro": 1,
+      "dia": "Quinta",
+      "horario": "14:40-15:30",
+      "slot": 44,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "CC1AED1",
+      "disciplina": "Algoritmos e Estrutura de Dados I",
+      "professor": "Anderson Brilhador",
+      "encontro": 3,
+      "dia": "Sexta",
+      "horario": "13:00-13:50",
+      "slot": 54,
+      "duracao": 2
+    },
+    {
+      "periodo": 1,
+      "codigo": "CC1ICC",
+      "disciplina": "Introducao a Ciencia da Computacao",
+      "professor": "Giuvane Conti",
+      "encontro": 1,
+      "dia": "Sexta",
+      "horario": "14:40-15:30",
+      "slot": 56,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "MA2MA",
+      "disciplina": "Matematica Aplicada",
+      "professor": "Evandro Alves Nakajima",
+      "encontro": 2,
+      "dia": "Segunda",
+      "horario": "07:30-08:20",
+      "slot": 0,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2AED2",
+      "disciplina": "Algoritmos e Estrutura de Dados II",
+      "professor": "Djonatham Caua Fritzen Christ",
+      "encontro": 1,
+      "dia": "Segunda",
+      "horario": "09:10-10:00",
+      "slot": 2,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2POO",
+      "disciplina": "Programacao Orientada a Objetos",
+      "professor": "Giuvane Conti",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "08:20-09:10",
+      "slot": 13,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2ER",
+      "disciplina": "Engenharia de Requisitos",
+      "professor": "Davi Marcondes Rocha",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "10:20-11:10",
+      "slot": 15,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2CLD",
+      "disciplina": "Circuitos Logicos Digitais",
+      "professor": "Gloria Patricia Lopez Sepulveda",
+      "encontro": 1,
+      "dia": "Quarta",
+      "horario": "08:20-09:10",
+      "slot": 25,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2AED2",
+      "disciplina": "Algoritmos e Estrutura de Dados II",
+      "professor": "Djonatham Caua Fritzen Christ",
+      "encontro": 2,
+      "dia": "Quarta",
+      "horario": "10:20-11:10",
+      "slot": 27,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2CLD",
+      "disciplina": "Circuitos Logicos Digitais",
+      "professor": "Gloria Patricia Lopez Sepulveda",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "07:30-08:20",
+      "slot": 36,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2POO",
+      "disciplina": "Programacao Orientada a Objetos",
+      "professor": "Giuvane Conti",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "09:10-10:00",
+      "slot": 38,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "CC2ER",
+      "disciplina": "Engenharia de Requisitos",
+      "professor": "Davi Marcondes Rocha",
+      "encontro": 2,
+      "dia": "Sexta",
+      "horario": "08:20-09:10",
+      "slot": 49,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "MA2MA",
+      "disciplina": "Matematica Aplicada",
+      "professor": "Evandro Alves Nakajima",
+      "encontro": 1,
+      "dia": "Sexta",
+      "horario": "10:20-11:10",
+      "slot": 51,
+      "duracao": 2
+    },
+    {
+      "periodo": 2,
+      "codigo": "OPHE",
+      "disciplina": "Empreendedorismo",
+      "professor": "Paula Regina Zarelli",
+      "encontro": 1,
+      "dia": "Sexta",
+      "horario": "13:00-13:50",
+      "slot": 54,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3ES",
+      "disciplina": "Engenharia de Software",
+      "professor": "Wellington de Souza Ferreira",
+      "encontro": 1,
+      "dia": "Segunda",
+      "horario": "13:00-13:50",
+      "slot": 6,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3AED3",
+      "disciplina": "Algoritmos e Estrutura de Dados III",
+      "professor": "Thiago Franca Naves",
+      "encontro": 2,
+      "dia": "Segunda",
+      "horario": "14:40-15:30",
+      "slot": 8,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 1,
+      "dia": "Segunda",
+      "horario": "17:30-18:20",
+      "slot": 11,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "MA3CA",
+      "disciplina": "Calculo Aplicado",
+      "professor": "Vanderlea de Lima Inaba",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "13:00-13:50",
+      "slot": 18,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3AED3",
+      "disciplina": "Algoritmos e Estrutura de Dados III",
+      "professor": "Thiago Franca Naves",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "14:40-15:30",
+      "slot": 20,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 2,
+      "dia": "Terca",
+      "horario": "17:30-18:20",
+      "slot": 23,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3AOC",
+      "disciplina": "Arquitetura e Organizacao de Computadores",
+      "professor": "Djonatham Caua Fritzen Christ",
+      "encontro": 3,
+      "dia": "Quarta",
+      "horario": "13:00-13:50",
+      "slot": 30,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "MA3AL",
+      "disciplina": "Algebra Linear",
+      "professor": "Evandro Alves Nakajima",
+      "encontro": 1,
+      "dia": "Quarta",
+      "horario": "14:40-15:30",
+      "slot": 32,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 3,
+      "dia": "Quarta",
+      "horario": "17:30-18:20",
+      "slot": 35,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3AOC",
+      "disciplina": "Arquitetura e Organizacao de Computadores",
+      "professor": "Djonatham Caua Fritzen Christ",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "13:00-13:50",
+      "slot": 42,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3ES",
+      "disciplina": "Engenharia de Software",
+      "professor": "Wellington de Souza Ferreira",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "14:40-15:30",
+      "slot": 44,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "MA3AL",
+      "disciplina": "Algebra Linear",
+      "professor": "Evandro Alves Nakajima",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "16:40-17:30",
+      "slot": 46,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 4,
+      "dia": "Quinta",
+      "horario": "17:30-18:20",
+      "slot": 47,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3AOC",
+      "disciplina": "Arquitetura e Organizacao de Computadores",
+      "professor": "Djonatham Caua Fritzen Christ",
+      "encontro": 1,
+      "dia": "Sexta",
+      "horario": "13:00-13:50",
+      "slot": 54,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "MA3CA",
+      "disciplina": "Calculo Aplicado",
+      "professor": "Vanderlea de Lima Inaba",
+      "encontro": 2,
+      "dia": "Sexta",
+      "horario": "14:40-15:30",
+      "slot": 56,
+      "duracao": 2
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 5,
+      "dia": "Sexta",
+      "horario": "17:30-18:20",
+      "slot": 59,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 6,
+      "dia": "Sabado",
+      "horario": "07:30-08:20",
+      "slot": 60,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 7,
+      "dia": "Sabado",
+      "horario": "08:20-09:10",
+      "slot": 61,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 8,
+      "dia": "Sabado",
+      "horario": "09:10-10:00",
+      "slot": 62,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 9,
+      "dia": "Sabado",
+      "horario": "10:20-11:10",
+      "slot": 63,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 10,
+      "dia": "Sabado",
+      "horario": "11:10-12:00",
+      "slot": 64,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 11,
+      "dia": "Sabado",
+      "horario": "12:00-12:50",
+      "slot": 65,
+      "duracao": 1
+    },
+    {
+      "periodo": 3,
+      "codigo": "CC3PI1",
+      "disciplina": "Projeto Integrador I: Computacao e Educacao",
+      "professor": "Agnaldo da Costa",
+      "encontro": 12,
+      "dia": "Sabado",
+      "horario": "13:00-13:50",
+      "slot": 66,
+      "duracao": 1
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4PO",
+      "disciplina": "Pesquisa e Ordenacao",
+      "professor": "Gloria Patricia Lopez Sepulveda",
+      "encontro": 2,
+      "dia": "Segunda",
+      "horario": "07:30-08:20",
+      "slot": 0,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4LBD",
+      "disciplina": "Laboratorio de Banco de Dados",
+      "professor": "Leiliane Pereira de Rezende",
+      "encontro": 1,
+      "dia": "Segunda",
+      "horario": "09:10-10:00",
+      "slot": 2,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4IHC",
+      "disciplina": "Interacao Humano Computador",
+      "professor": "Wellington de Souza Ferreira",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "07:30-08:20",
+      "slot": 12,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "MA4PE",
+      "disciplina": "Probabilidade e Estatistica",
+      "professor": "Joao Augusto Navarro Cossich",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "09:10-10:00",
+      "slot": 14,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4PO",
+      "disciplina": "Pesquisa e Ordenacao",
+      "professor": "Gloria Patricia Lopez Sepulveda",
+      "encontro": 1,
+      "dia": "Terca",
+      "horario": "11:10-12:00",
+      "slot": 16,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "MA4PE",
+      "disciplina": "Probabilidade e Estatistica",
+      "professor": "Joao Augusto Navarro Cossich",
+      "encontro": 2,
+      "dia": "Quarta",
+      "horario": "08:20-09:10",
+      "slot": 25,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4IHC",
+      "disciplina": "Interacao Humano Computador",
+      "professor": "Wellington de Souza Ferreira",
+      "encontro": 2,
+      "dia": "Quarta",
+      "horario": "10:20-11:10",
+      "slot": 27,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4RC",
+      "disciplina": "Redes de Computadores",
+      "professor": "Agnaldo da Costa",
+      "encontro": 1,
+      "dia": "Quinta",
+      "horario": "08:20-09:10",
+      "slot": 37,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4SO",
+      "disciplina": "Sistemas Operacionais",
+      "professor": "Agnaldo da Costa",
+      "encontro": 2,
+      "dia": "Quinta",
+      "horario": "10:20-11:10",
+      "slot": 39,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4LBD",
+      "disciplina": "Laboratorio de Banco de Dados",
+      "professor": "Leiliane Pereira de Rezende",
+      "encontro": 2,
+      "dia": "Sexta",
+      "horario": "07:30-08:20",
+      "slot": 48,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4SO",
+      "disciplina": "Sistemas Operacionais",
+      "professor": "Agnaldo da Costa",
+      "encontro": 1,
+      "dia": "Sexta",
+      "horario": "09:10-10:00",
+      "slot": 50,
+      "duracao": 2
+    },
+    {
+      "periodo": 4,
+      "codigo": "CC4RC",
+      "disciplina": "Redes de Computadores",
+      "professor": "Agnaldo da Costa",
+      "encontro": 2,
+      "dia": "Sexta",
+      "horario": "11:10-12:00",
+      "slot": 52,
+      "duracao": 2
+    }
+  ],
+  "historico": [
+    {
+      "geracao": 1,
+      "melhor_fitness": 38137,
+      "melhor_conflitos": 38,
+      "media_fitness": 53526.055
+    },
+    {
+      "geracao": 2,
+      "melhor_fitness": 35158,
+      "melhor_conflitos": 35,
+      "media_fitness": 50437.77
+    },
+    {
+      "geracao": 3,
+      "melhor_fitness": 30163,
+      "melhor_conflitos": 30,
+      "media_fitness": 49342.62
+    },
+    {
+      "geracao": 4,
+      "melhor_fitness": 30163,
+      "melhor_conflitos": 30,
+      "media_fitness": 47778.52
+    },
+    {
+      "geracao": 5,
+      "melhor_fitness": 30163,
+      "melhor_conflitos": 30,
+      "media_fitness": 47437.765
+    },
+    {
+      "geracao": 6,
+      "melhor_fitness": 30163,
+      "melhor_conflitos": 30,
+      "media_fitness": 47548.905
+    },
+    {
+      "geracao": 7,
+      "melhor_fitness": 30163,
+      "melhor_conflitos": 30,
+      "media_fitness": 47245.545
+    },
+    {
+      "geracao": 8,
+      "melhor_fitness": 29188,
+      "melhor_conflitos": 29,
+      "media_fitness": 45930.035
+    },
+    {
+      "geracao": 9,
+      "melhor_fitness": 26169,
+      "melhor_conflitos": 26,
+      "media_fitness": 44101.745
+    },
+    {
+      "geracao": 10,
+      "melhor_fitness": 26163,
+      "melhor_conflitos": 26,
+      "media_fitness": 43322.495
+    },
+    {
+      "geracao": 11,
+      "melhor_fitness": 26163,
+      "melhor_conflitos": 26,
+      "media_fitness": 42823.88
+    },
+    {
+      "geracao": 12,
+      "melhor_fitness": 26163,
+      "melhor_conflitos": 26,
+      "media_fitness": 42710.845
+    },
+    {
+      "geracao": 13,
+      "melhor_fitness": 26163,
+      "melhor_conflitos": 26,
+      "media_fitness": 41817.145
+    },
+    {
+      "geracao": 14,
+      "melhor_fitness": 23182,
+      "melhor_conflitos": 23,
+      "media_fitness": 41844.81
+    },
+    {
+      "geracao": 15,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 40191.25
+    },
+    {
+      "geracao": 16,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 40495.64
+    },
+    {
+      "geracao": 17,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 39544.595
+    },
+    {
+      "geracao": 18,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 37537.505
+    },
+    {
+      "geracao": 19,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 36498.2
+    },
+    {
+      "geracao": 20,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 36575.305
+    },
+    {
+      "geracao": 21,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 36243.225
+    },
+    {
+      "geracao": 22,
+      "melhor_fitness": 22181,
+      "melhor_conflitos": 22,
+      "media_fitness": 35119.965
+    },
+    {
+      "geracao": 23,
+      "melhor_fitness": 20191,
+      "melhor_conflitos": 20,
+      "media_fitness": 34495.955
+    },
+    {
+      "geracao": 24,
+      "melhor_fitness": 20191,
+      "melhor_conflitos": 20,
+      "media_fitness": 34366.025
+    },
+    {
+      "geracao": 25,
+      "melhor_fitness": 20173,
+      "melhor_conflitos": 20,
+      "media_fitness": 34287.47
+    },
+    {
+      "geracao": 26,
+      "melhor_fitness": 20173,
+      "melhor_conflitos": 20,
+      "media_fitness": 32929.395
+    },
+    {
+      "geracao": 27,
+      "melhor_fitness": 20173,
+      "melhor_conflitos": 20,
+      "media_fitness": 32225.875
+    },
+    {
+      "geracao": 28,
+      "melhor_fitness": 18187,
+      "melhor_conflitos": 18,
+      "media_fitness": 31721.15
+    },
+    {
+      "geracao": 29,
+      "melhor_fitness": 18185,
+      "melhor_conflitos": 18,
+      "media_fitness": 31650.865
+    },
+    {
+      "geracao": 30,
+      "melhor_fitness": 17186,
+      "melhor_conflitos": 17,
+      "media_fitness": 31325.455
+    },
+    {
+      "geracao": 31,
+      "melhor_fitness": 17186,
+      "melhor_conflitos": 17,
+      "media_fitness": 29826.32
+    },
+    {
+      "geracao": 32,
+      "melhor_fitness": 16188,
+      "melhor_conflitos": 16,
+      "media_fitness": 29965.105
+    },
+    {
+      "geracao": 33,
+      "melhor_fitness": 16188,
+      "melhor_conflitos": 16,
+      "media_fitness": 29400.77
+    },
+    {
+      "geracao": 34,
+      "melhor_fitness": 16166,
+      "melhor_conflitos": 16,
+      "media_fitness": 28850.765
+    },
+    {
+      "geracao": 35,
+      "melhor_fitness": 16166,
+      "melhor_conflitos": 16,
+      "media_fitness": 29120.555
+    },
+    {
+      "geracao": 36,
+      "melhor_fitness": 14170,
+      "melhor_conflitos": 14,
+      "media_fitness": 28839.87
+    },
+    {
+      "geracao": 37,
+      "melhor_fitness": 14170,
+      "melhor_conflitos": 14,
+      "media_fitness": 27590.275
+    },
+    {
+      "geracao": 38,
+      "melhor_fitness": 14170,
+      "melhor_conflitos": 14,
+      "media_fitness": 27289.505
+    },
+    {
+      "geracao": 39,
+      "melhor_fitness": 13196,
+      "melhor_conflitos": 13,
+      "media_fitness": 27275.64
+    },
+    {
+      "geracao": 40,
+      "melhor_fitness": 13196,
+      "melhor_conflitos": 13,
+      "media_fitness": 26151.685
+    },
+    {
+      "geracao": 41,
+      "melhor_fitness": 13192,
+      "melhor_conflitos": 13,
+      "media_fitness": 26460.285
+    },
+    {
+      "geracao": 42,
+      "melhor_fitness": 13192,
+      "melhor_conflitos": 13,
+      "media_fitness": 25472.39
+    },
+    {
+      "geracao": 43,
+      "melhor_fitness": 13172,
+      "melhor_conflitos": 13,
+      "media_fitness": 25562.605
+    },
+    {
+      "geracao": 44,
+      "melhor_fitness": 13172,
+      "melhor_conflitos": 13,
+      "media_fitness": 25913.92
+    },
+    {
+      "geracao": 45,
+      "melhor_fitness": 12198,
+      "melhor_conflitos": 12,
+      "media_fitness": 25189.82
+    },
+    {
+      "geracao": 46,
+      "melhor_fitness": 12198,
+      "melhor_conflitos": 12,
+      "media_fitness": 24860.44
+    },
+    {
+      "geracao": 47,
+      "melhor_fitness": 12198,
+      "melhor_conflitos": 12,
+      "media_fitness": 24434.02
+    },
+    {
+      "geracao": 48,
+      "melhor_fitness": 12198,
+      "melhor_conflitos": 12,
+      "media_fitness": 24273.115
+    },
+    {
+      "geracao": 49,
+      "melhor_fitness": 12180,
+      "melhor_conflitos": 12,
+      "media_fitness": 23848.37
+    },
+    {
+      "geracao": 50,
+      "melhor_fitness": 12180,
+      "melhor_conflitos": 12,
+      "media_fitness": 24253.5
+    },
+    {
+      "geracao": 51,
+      "melhor_fitness": 12180,
+      "melhor_conflitos": 12,
+      "media_fitness": 23749.795
+    },
+    {
+      "geracao": 52,
+      "melhor_fitness": 12180,
+      "melhor_conflitos": 12,
+      "media_fitness": 23198.48
+    },
+    {
+      "geracao": 53,
+      "melhor_fitness": 11185,
+      "melhor_conflitos": 11,
+      "media_fitness": 22793.8
+    },
+    {
+      "geracao": 54,
+      "melhor_fitness": 11185,
+      "melhor_conflitos": 11,
+      "media_fitness": 22874.355
+    },
+    {
+      "geracao": 55,
+      "melhor_fitness": 11185,
+      "melhor_conflitos": 11,
+      "media_fitness": 22570.315
+    },
+    {
+      "geracao": 56,
+      "melhor_fitness": 11185,
+      "melhor_conflitos": 11,
+      "media_fitness": 21404.79
+    },
+    {
+      "geracao": 57,
+      "melhor_fitness": 11183,
+      "melhor_conflitos": 11,
+      "media_fitness": 20887.375
+    },
+    {
+      "geracao": 58,
+      "melhor_fitness": 10186,
+      "melhor_conflitos": 10,
+      "media_fitness": 20333.06
+    },
+    {
+      "geracao": 59,
+      "melhor_fitness": 10182,
+      "melhor_conflitos": 10,
+      "media_fitness": 20073.365
+    },
+    {
+      "geracao": 60,
+      "melhor_fitness": 10176,
+      "melhor_conflitos": 10,
+      "media_fitness": 20547.87
+    },
+    {
+      "geracao": 61,
+      "melhor_fitness": 9184,
+      "melhor_conflitos": 9,
+      "media_fitness": 19996.205
+    },
+    {
+      "geracao": 62,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18907.145
+    },
+    {
+      "geracao": 63,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18947.9
+    },
+    {
+      "geracao": 64,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18782.71
+    },
+    {
+      "geracao": 65,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18998.185
+    },
+    {
+      "geracao": 66,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18879.805
+    },
+    {
+      "geracao": 67,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18545.66
+    },
+    {
+      "geracao": 68,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18271.51
+    },
+    {
+      "geracao": 69,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18546.095
+    },
+    {
+      "geracao": 70,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18821.595
+    },
+    {
+      "geracao": 71,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18226.615
+    },
+    {
+      "geracao": 72,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18196.85
+    },
+    {
+      "geracao": 73,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18092.94
+    },
+    {
+      "geracao": 74,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 17624.355
+    },
+    {
+      "geracao": 75,
+      "melhor_fitness": 8182,
+      "melhor_conflitos": 8,
+      "media_fitness": 18407.415
+    },
+    {
+      "geracao": 76,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 18338.225
+    },
+    {
+      "geracao": 77,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 18593.07
+    },
+    {
+      "geracao": 78,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 18771.395
+    },
+    {
+      "geracao": 79,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 18626.625
+    },
+    {
+      "geracao": 80,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 18721.375
+    },
+    {
+      "geracao": 81,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 18611.085
+    },
+    {
+      "geracao": 82,
+      "melhor_fitness": 7184,
+      "melhor_conflitos": 7,
+      "media_fitness": 17773.065
+    },
+    {
+      "geracao": 83,
+      "melhor_fitness": 6200,
+      "melhor_conflitos": 6,
+      "media_fitness": 17363.72
+    },
+    {
+      "geracao": 84,
+      "melhor_fitness": 6200,
+      "melhor_conflitos": 6,
+      "media_fitness": 17783.615
+    },
+    {
+      "geracao": 85,
+      "melhor_fitness": 6200,
+      "melhor_conflitos": 6,
+      "media_fitness": 17803.735
+    },
+    {
+      "geracao": 86,
+      "melhor_fitness": 6200,
+      "melhor_conflitos": 6,
+      "media_fitness": 17365.27
+    },
+    {
+      "geracao": 87,
+      "melhor_fitness": 6200,
+      "melhor_conflitos": 6,
+      "media_fitness": 17545.01
+    },
+    {
+      "geracao": 88,
+      "melhor_fitness": 6200,
+      "melhor_conflitos": 6,
+      "media_fitness": 17284.375
+    },
+    {
+      "geracao": 89,
+      "melhor_fitness": 6196,
+      "melhor_conflitos": 6,
+      "media_fitness": 17683.975
+    },
+    {
+      "geracao": 90,
+      "melhor_fitness": 6196,
+      "melhor_conflitos": 6,
+      "media_fitness": 17924.445
+    },
+    {
+      "geracao": 91,
+      "melhor_fitness": 6196,
+      "melhor_conflitos": 6,
+      "media_fitness": 17476.32
+    },
+    {
+      "geracao": 92,
+      "melhor_fitness": 6196,
+      "melhor_conflitos": 6,
+      "media_fitness": 17452.005
+    },
+    {
+      "geracao": 93,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 17019.34
+    },
+    {
+      "geracao": 94,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 17293.735
+    },
+    {
+      "geracao": 95,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 16224.88
+    },
+    {
+      "geracao": 96,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 16500.79
+    },
+    {
+      "geracao": 97,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 16265.95
+    },
+    {
+      "geracao": 98,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 16009.65
+    },
+    {
+      "geracao": 99,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 15890.06
+    },
+    {
+      "geracao": 100,
+      "melhor_fitness": 5196,
+      "melhor_conflitos": 5,
+      "media_fitness": 15670.435
+    },
+    {
+      "geracao": 101,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 15793.91
+    },
+    {
+      "geracao": 102,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16397.33
+    },
+    {
+      "geracao": 103,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16196.31
+    },
+    {
+      "geracao": 104,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16475.82
+    },
+    {
+      "geracao": 105,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16196.82
+    },
+    {
+      "geracao": 106,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16022.46
+    },
+    {
+      "geracao": 107,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16542.95
+    },
+    {
+      "geracao": 108,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 16130.675
+    },
+    {
+      "geracao": 109,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 15512.35
+    },
+    {
+      "geracao": 110,
+      "melhor_fitness": 5194,
+      "melhor_conflitos": 5,
+      "media_fitness": 14993.55
+    },
+    {
+      "geracao": 111,
+      "melhor_fitness": 4200,
+      "melhor_conflitos": 4,
+      "media_fitness": 14924.745
+    },
+    {
+      "geracao": 112,
+      "melhor_fitness": 4200,
+      "melhor_conflitos": 4,
+      "media_fitness": 15229.785
+    },
+    {
+      "geracao": 113,
+      "melhor_fitness": 4200,
+      "melhor_conflitos": 4,
+      "media_fitness": 15491.83
+    },
+    {
+      "geracao": 114,
+      "melhor_fitness": 4197,
+      "melhor_conflitos": 4,
+      "media_fitness": 15138.95
+    },
+    {
+      "geracao": 115,
+      "melhor_fitness": 4197,
+      "melhor_conflitos": 4,
+      "media_fitness": 15124.075
+    },
+    {
+      "geracao": 116,
+      "melhor_fitness": 4197,
+      "melhor_conflitos": 4,
+      "media_fitness": 14699.05
+    },
+    {
+      "geracao": 117,
+      "melhor_fitness": 4197,
+      "melhor_conflitos": 4,
+      "media_fitness": 14698.81
+    },
+    {
+      "geracao": 118,
+      "melhor_fitness": 4197,
+      "melhor_conflitos": 4,
+      "media_fitness": 14963.53
+    },
+    {
+      "geracao": 119,
+      "melhor_fitness": 4197,
+      "melhor_conflitos": 4,
+      "media_fitness": 15068.645
+    },
+    {
+      "geracao": 120,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 14932.685
+    },
+    {
+      "geracao": 121,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 14917.99
+    },
+    {
+      "geracao": 122,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 14579.525
+    },
+    {
+      "geracao": 123,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 14369.45
+    },
+    {
+      "geracao": 124,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 15258.44
+    },
+    {
+      "geracao": 125,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 14505.245
+    },
+    {
+      "geracao": 126,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13676.545
+    },
+    {
+      "geracao": 127,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13751.885
+    },
+    {
+      "geracao": 128,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13257.24
+    },
+    {
+      "geracao": 129,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 12832.61
+    },
+    {
+      "geracao": 130,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13112.04
+    },
+    {
+      "geracao": 131,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13183.11
+    },
+    {
+      "geracao": 132,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13267.95
+    },
+    {
+      "geracao": 133,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 12673.825
+    },
+    {
+      "geracao": 134,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13378.375
+    },
+    {
+      "geracao": 135,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13543.215
+    },
+    {
+      "geracao": 136,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13194.51
+    },
+    {
+      "geracao": 137,
+      "melhor_fitness": 2210,
+      "melhor_conflitos": 2,
+      "media_fitness": 13543.02
+    },
+    {
+      "geracao": 138,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 13113.25
+    },
+    {
+      "geracao": 139,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12586.025
+    },
+    {
+      "geracao": 140,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12377.975
+    },
+    {
+      "geracao": 141,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12406.81
+    },
+    {
+      "geracao": 142,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12904.485
+    },
+    {
+      "geracao": 143,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12754.51
+    },
+    {
+      "geracao": 144,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12614.105
+    },
+    {
+      "geracao": 145,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12705.07
+    },
+    {
+      "geracao": 146,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 13633.485
+    },
+    {
+      "geracao": 147,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 13224.565
+    },
+    {
+      "geracao": 148,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 13423.59
+    },
+    {
+      "geracao": 149,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12804.81
+    },
+    {
+      "geracao": 150,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12718.93
+    },
+    {
+      "geracao": 151,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 12419.355
+    },
+    {
+      "geracao": 152,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 11595.89
+    },
+    {
+      "geracao": 153,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 11795.3
+    },
+    {
+      "geracao": 154,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 11683.935
+    },
+    {
+      "geracao": 155,
+      "melhor_fitness": 2208,
+      "melhor_conflitos": 2,
+      "media_fitness": 11340.39
+    },
+    {
+      "geracao": 156,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 11900.485
+    },
+    {
+      "geracao": 157,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 12185.76
+    },
+    {
+      "geracao": 158,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 11795.42
+    },
+    {
+      "geracao": 159,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 12400.355
+    },
+    {
+      "geracao": 160,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 12619.23
+    },
+    {
+      "geracao": 161,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 12494.125
+    },
+    {
+      "geracao": 162,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 11805.955
+    },
+    {
+      "geracao": 163,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 11929.46
+    },
+    {
+      "geracao": 164,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 11854.72
+    },
+    {
+      "geracao": 165,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 11798.575
+    },
+    {
+      "geracao": 166,
+      "melhor_fitness": 2204,
+      "melhor_conflitos": 2,
+      "media_fitness": 12258.0
+    },
+    {
+      "geracao": 167,
+      "melhor_fitness": 2199,
+      "melhor_conflitos": 2,
+      "media_fitness": 12491.625
+    },
+    {
+      "geracao": 168,
+      "melhor_fitness": 2199,
+      "melhor_conflitos": 2,
+      "media_fitness": 12570.79
+    },
+    {
+      "geracao": 169,
+      "melhor_fitness": 2199,
+      "melhor_conflitos": 2,
+      "media_fitness": 12679.76
+    },
+    {
+      "geracao": 170,
+      "melhor_fitness": 2199,
+      "melhor_conflitos": 2,
+      "media_fitness": 12509.885
+    },
+    {
+      "geracao": 171,
+      "melhor_fitness": 2199,
+      "melhor_conflitos": 2,
+      "media_fitness": 12384.575
+    },
+    {
+      "geracao": 172,
+      "melhor_fitness": 2199,
+      "melhor_conflitos": 2,
+      "media_fitness": 12179.27
+    },
+    {
+      "geracao": 173,
+      "melhor_fitness": 2196,
+      "melhor_conflitos": 2,
+      "media_fitness": 11604.14
+    },
+    {
+      "geracao": 174,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 12073.15
+    },
+    {
+      "geracao": 175,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 11956.99
+    },
+    {
+      "geracao": 176,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 11164.34
+    },
+    {
+      "geracao": 177,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 11264.955
+    },
+    {
+      "geracao": 178,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 11583.165
+    },
+    {
+      "geracao": 179,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 11766.875
+    },
+    {
+      "geracao": 180,
+      "melhor_fitness": 2189,
+      "melhor_conflitos": 2,
+      "media_fitness": 12322.29
+    },
+    {
+      "geracao": 181,
+      "melhor_fitness": 1206,
+      "melhor_conflitos": 1,
+      "media_fitness": 12147.355
+    },
+    {
+      "geracao": 182,
+      "melhor_fitness": 1206,
+      "melhor_conflitos": 1,
+      "media_fitness": 11363.3
+    },
+    {
+      "geracao": 183,
+      "melhor_fitness": 1206,
+      "melhor_conflitos": 1,
+      "media_fitness": 11752.91
+    },
+    {
+      "geracao": 184,
+      "melhor_fitness": 1206,
+      "melhor_conflitos": 1,
+      "media_fitness": 11757.465
+    },
+    {
+      "geracao": 185,
+      "melhor_fitness": 1206,
+      "melhor_conflitos": 1,
+      "media_fitness": 12039.885
+    },
+    {
+      "geracao": 186,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12661.635
+    },
+    {
+      "geracao": 187,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12117.215
+    },
+    {
+      "geracao": 188,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12126.5
+    },
+    {
+      "geracao": 189,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 11996.73
+    },
+    {
+      "geracao": 190,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12341.95
+    },
+    {
+      "geracao": 191,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 11927.305
+    },
+    {
+      "geracao": 192,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 11822.855
+    },
+    {
+      "geracao": 193,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 11593.355
+    },
+    {
+      "geracao": 194,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 11368.46
+    },
+    {
+      "geracao": 195,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 11742.33
+    },
+    {
+      "geracao": 196,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12326.05
+    },
+    {
+      "geracao": 197,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 13006.785
+    },
+    {
+      "geracao": 198,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12951.73
+    },
+    {
+      "geracao": 199,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12662.32
+    },
+    {
+      "geracao": 200,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12643.155
+    },
+    {
+      "geracao": 201,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12413.735
+    },
+    {
+      "geracao": 202,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12317.865
+    },
+    {
+      "geracao": 203,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12493.435
+    },
+    {
+      "geracao": 204,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12101.69
+    },
+    {
+      "geracao": 205,
+      "melhor_fitness": 1194,
+      "melhor_conflitos": 1,
+      "media_fitness": 12440.82
+    },
+    {
+      "geracao": 206,
+      "melhor_fitness": 204,
+      "melhor_conflitos": 0,
+      "media_fitness": 11651.485
+    },
+    {
+      "geracao": 207,
+      "melhor_fitness": 204,
+      "melhor_conflitos": 0,
+      "media_fitness": 11127.59
+    },
+    {
+      "geracao": 208,
+      "melhor_fitness": 204,
+      "melhor_conflitos": 0,
+      "media_fitness": 10918.23
+    },
+    {
+      "geracao": 209,
+      "melhor_fitness": 204,
+      "melhor_conflitos": 0,
+      "media_fitness": 11278.46
+    },
+    {
+      "geracao": 210,
+      "melhor_fitness": 204,
+      "melhor_conflitos": 0,
+      "media_fitness": 11368.605
+    },
+    {
+      "geracao": 211,
+      "melhor_fitness": 204,
+      "melhor_conflitos": 0,
+      "media_fitness": 10746.0
+    },
+    {
+      "geracao": 212,
+      "melhor_fitness": 202,
+      "melhor_conflitos": 0,
+      "media_fitness": 10691.055
+    },
+    {
+      "geracao": 213,
+      "melhor_fitness": 202,
+      "melhor_conflitos": 0,
+      "media_fitness": 10890.22
+    },
+    {
+      "geracao": 214,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 11144.655
+    },
+    {
+      "geracao": 215,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 10714.385
+    },
+    {
+      "geracao": 216,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 11743.31
+    },
+    {
+      "geracao": 217,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12207.32
+    },
+    {
+      "geracao": 218,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12251.87
+    },
+    {
+      "geracao": 219,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12766.13
+    },
+    {
+      "geracao": 220,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 13426.15
+    },
+    {
+      "geracao": 221,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12902.57
+    },
+    {
+      "geracao": 222,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12428.11
+    },
+    {
+      "geracao": 223,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12383.295
+    },
+    {
+      "geracao": 224,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 11748.98
+    },
+    {
+      "geracao": 225,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12212.635
+    },
+    {
+      "geracao": 226,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12856.73
+    },
+    {
+      "geracao": 227,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12027.73
+    },
+    {
+      "geracao": 228,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 11772.75
+    },
+    {
+      "geracao": 229,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12087.335
+    },
+    {
+      "geracao": 230,
+      "melhor_fitness": 198,
+      "melhor_conflitos": 0,
+      "media_fitness": 12298.215
+    },
+    {
+      "geracao": 231,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 12388.375
+    },
+    {
+      "geracao": 232,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11524.805
+    },
+    {
+      "geracao": 233,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11687.7
+    },
+    {
+      "geracao": 234,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11873.185
+    },
+    {
+      "geracao": 235,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 12146.81
+    },
+    {
+      "geracao": 236,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11866.305
+    },
+    {
+      "geracao": 237,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11317.865
+    },
+    {
+      "geracao": 238,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 12654.975
+    },
+    {
+      "geracao": 239,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 13218.595
+    },
+    {
+      "geracao": 240,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 12450.34
+    },
+    {
+      "geracao": 241,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 13020.815
+    },
+    {
+      "geracao": 242,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 12236.485
+    },
+    {
+      "geracao": 243,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11977.575
+    },
+    {
+      "geracao": 244,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 10628.585
+    },
+    {
+      "geracao": 245,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 10778.525
+    },
+    {
+      "geracao": 246,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 9838.08
+    },
+    {
+      "geracao": 247,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 10642.005
+    },
+    {
+      "geracao": 248,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11197.32
+    },
+    {
+      "geracao": 249,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11612.64
+    },
+    {
+      "geracao": 250,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 11102.605
+    },
+    {
+      "geracao": 251,
+      "melhor_fitness": 196,
+      "melhor_conflitos": 0,
+      "media_fitness": 10688.265
+    },
+    {
+      "geracao": 252,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10629.075
+    },
+    {
+      "geracao": 253,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10763.185
+    },
+    {
+      "geracao": 254,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10672.495
+    },
+    {
+      "geracao": 255,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10133.35
+    },
+    {
+      "geracao": 256,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10607.675
+    },
+    {
+      "geracao": 257,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10941.92
+    },
+    {
+      "geracao": 258,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11086.16
+    },
+    {
+      "geracao": 259,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10861.16
+    },
+    {
+      "geracao": 260,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11220.3
+    },
+    {
+      "geracao": 261,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11406.125
+    },
+    {
+      "geracao": 262,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11631.23
+    },
+    {
+      "geracao": 263,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11411.795
+    },
+    {
+      "geracao": 264,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10845.485
+    },
+    {
+      "geracao": 265,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11214.13
+    },
+    {
+      "geracao": 266,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11584.365
+    },
+    {
+      "geracao": 267,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10979.385
+    },
+    {
+      "geracao": 268,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11109.775
+    },
+    {
+      "geracao": 269,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11379.73
+    },
+    {
+      "geracao": 270,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 12192.855
+    },
+    {
+      "geracao": 271,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11318.895
+    },
+    {
+      "geracao": 272,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11059.15
+    },
+    {
+      "geracao": 273,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11472.325
+    },
+    {
+      "geracao": 274,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11023.415
+    },
+    {
+      "geracao": 275,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10604.935
+    },
+    {
+      "geracao": 276,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10415.48
+    },
+    {
+      "geracao": 277,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10430.545
+    },
+    {
+      "geracao": 278,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10217.415
+    },
+    {
+      "geracao": 279,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10851.94
+    },
+    {
+      "geracao": 280,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 9952.79
+    },
+    {
+      "geracao": 281,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11309.77
+    },
+    {
+      "geracao": 282,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11060.6
+    },
+    {
+      "geracao": 283,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10600.685
+    },
+    {
+      "geracao": 284,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10706.085
+    },
+    {
+      "geracao": 285,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10810.12
+    },
+    {
+      "geracao": 286,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10120.53
+    },
+    {
+      "geracao": 287,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10814.545
+    },
+    {
+      "geracao": 288,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11427.48
+    },
+    {
+      "geracao": 289,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11721.79
+    },
+    {
+      "geracao": 290,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 12296.01
+    },
+    {
+      "geracao": 291,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 12050.01
+    },
+    {
+      "geracao": 292,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11578.275
+    },
+    {
+      "geracao": 293,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11814.14
+    },
+    {
+      "geracao": 294,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 11493.475
+    },
+    {
+      "geracao": 295,
+      "melhor_fitness": 194,
+      "melhor_conflitos": 0,
+      "media_fitness": 10353.92
+    },
+    {
+      "geracao": 296,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10619.185
+    },
+    {
+      "geracao": 297,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11003.525
+    },
+    {
+      "geracao": 298,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11078.73
+    },
+    {
+      "geracao": 299,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11067.655
+    },
+    {
+      "geracao": 300,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10947.985
+    },
+    {
+      "geracao": 301,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10653.06
+    },
+    {
+      "geracao": 302,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10763.12
+    },
+    {
+      "geracao": 303,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10433.445
+    },
+    {
+      "geracao": 304,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10672.485
+    },
+    {
+      "geracao": 305,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10503.115
+    },
+    {
+      "geracao": 306,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10577.395
+    },
+    {
+      "geracao": 307,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10876.425
+    },
+    {
+      "geracao": 308,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10163.33
+    },
+    {
+      "geracao": 309,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11121.695
+    },
+    {
+      "geracao": 310,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10567.3
+    },
+    {
+      "geracao": 311,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10936.98
+    },
+    {
+      "geracao": 312,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10847.88
+    },
+    {
+      "geracao": 313,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11267.425
+    },
+    {
+      "geracao": 314,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11057.09
+    },
+    {
+      "geracao": 315,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11707.86
+    },
+    {
+      "geracao": 316,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11052.79
+    },
+    {
+      "geracao": 317,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11527.64
+    },
+    {
+      "geracao": 318,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11288.075
+    },
+    {
+      "geracao": 319,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11528.535
+    },
+    {
+      "geracao": 320,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11612.985
+    },
+    {
+      "geracao": 321,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11815.6
+    },
+    {
+      "geracao": 322,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11725.74
+    },
+    {
+      "geracao": 323,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11047.74
+    },
+    {
+      "geracao": 324,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11074.245
+    },
+    {
+      "geracao": 325,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10713.71
+    },
+    {
+      "geracao": 326,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10843.395
+    },
+    {
+      "geracao": 327,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11122.13
+    },
+    {
+      "geracao": 328,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10643.075
+    },
+    {
+      "geracao": 329,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10772.795
+    },
+    {
+      "geracao": 330,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10916.7
+    },
+    {
+      "geracao": 331,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11566.125
+    },
+    {
+      "geracao": 332,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11416.36
+    },
+    {
+      "geracao": 333,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10825.905
+    },
+    {
+      "geracao": 334,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11563.265
+    },
+    {
+      "geracao": 335,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12069.095
+    },
+    {
+      "geracao": 336,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12809.82
+    },
+    {
+      "geracao": 337,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12571.155
+    },
+    {
+      "geracao": 338,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12127.425
+    },
+    {
+      "geracao": 339,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12280.615
+    },
+    {
+      "geracao": 340,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11907.155
+    },
+    {
+      "geracao": 341,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11563.34
+    },
+    {
+      "geracao": 342,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11367.265
+    },
+    {
+      "geracao": 343,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11490.905
+    },
+    {
+      "geracao": 344,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11145.265
+    },
+    {
+      "geracao": 345,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11025.96
+    },
+    {
+      "geracao": 346,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10561.01
+    },
+    {
+      "geracao": 347,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11155.59
+    },
+    {
+      "geracao": 348,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11189.72
+    },
+    {
+      "geracao": 349,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11120.17
+    },
+    {
+      "geracao": 350,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11371.06
+    },
+    {
+      "geracao": 351,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11948.6
+    },
+    {
+      "geracao": 352,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11609.315
+    },
+    {
+      "geracao": 353,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11834.495
+    },
+    {
+      "geracao": 354,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11476.24
+    },
+    {
+      "geracao": 355,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11461.51
+    },
+    {
+      "geracao": 356,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12020.945
+    },
+    {
+      "geracao": 357,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11870.445
+    },
+    {
+      "geracao": 358,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11955.485
+    },
+    {
+      "geracao": 359,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12146.27
+    },
+    {
+      "geracao": 360,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11996.225
+    },
+    {
+      "geracao": 361,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12340.91
+    },
+    {
+      "geracao": 362,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11949.275
+    },
+    {
+      "geracao": 363,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11535.075
+    },
+    {
+      "geracao": 364,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11296.355
+    },
+    {
+      "geracao": 365,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11695.275
+    },
+    {
+      "geracao": 366,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11115.36
+    },
+    {
+      "geracao": 367,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11145.555
+    },
+    {
+      "geracao": 368,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11516.36
+    },
+    {
+      "geracao": 369,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11455.69
+    },
+    {
+      "geracao": 370,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11241.3
+    },
+    {
+      "geracao": 371,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11145.055
+    },
+    {
+      "geracao": 372,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11365.71
+    },
+    {
+      "geracao": 373,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11410.7
+    },
+    {
+      "geracao": 374,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10791.435
+    },
+    {
+      "geracao": 375,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10824.81
+    },
+    {
+      "geracao": 376,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11044.745
+    },
+    {
+      "geracao": 377,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10590.72
+    },
+    {
+      "geracao": 378,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10296.635
+    },
+    {
+      "geracao": 379,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10526.65
+    },
+    {
+      "geracao": 380,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 9993.15
+    },
+    {
+      "geracao": 381,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 9733.2
+    },
+    {
+      "geracao": 382,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 9868.25
+    },
+    {
+      "geracao": 383,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10986.265
+    },
+    {
+      "geracao": 384,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11605.4
+    },
+    {
+      "geracao": 385,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11700.17
+    },
+    {
+      "geracao": 386,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11070.565
+    },
+    {
+      "geracao": 387,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11834.01
+    },
+    {
+      "geracao": 388,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11509.785
+    },
+    {
+      "geracao": 389,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11374.94
+    },
+    {
+      "geracao": 390,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11069.97
+    },
+    {
+      "geracao": 391,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11594.35
+    },
+    {
+      "geracao": 392,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11968.685
+    },
+    {
+      "geracao": 393,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11836.54
+    },
+    {
+      "geracao": 394,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11526.1
+    },
+    {
+      "geracao": 395,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11425.93
+    },
+    {
+      "geracao": 396,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11516.46
+    },
+    {
+      "geracao": 397,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11106.59
+    },
+    {
+      "geracao": 398,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11840.74
+    },
+    {
+      "geracao": 399,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12336.6
+    },
+    {
+      "geracao": 400,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12825.63
+    },
+    {
+      "geracao": 401,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11926.505
+    },
+    {
+      "geracao": 402,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11991.005
+    },
+    {
+      "geracao": 403,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11622.05
+    },
+    {
+      "geracao": 404,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11386.61
+    },
+    {
+      "geracao": 405,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10610.91
+    },
+    {
+      "geracao": 406,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10587.355
+    },
+    {
+      "geracao": 407,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10855.9
+    },
+    {
+      "geracao": 408,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10650.085
+    },
+    {
+      "geracao": 409,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11344.795
+    },
+    {
+      "geracao": 410,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11091.095
+    },
+    {
+      "geracao": 411,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11231.535
+    },
+    {
+      "geracao": 412,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11071.555
+    },
+    {
+      "geracao": 413,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11226.77
+    },
+    {
+      "geracao": 414,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10553.645
+    },
+    {
+      "geracao": 415,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10084.01
+    },
+    {
+      "geracao": 416,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 9618.775
+    },
+    {
+      "geracao": 417,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10563.03
+    },
+    {
+      "geracao": 418,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10462.885
+    },
+    {
+      "geracao": 419,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10187.94
+    },
+    {
+      "geracao": 420,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10612.445
+    },
+    {
+      "geracao": 421,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11081.925
+    },
+    {
+      "geracao": 422,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10897.76
+    },
+    {
+      "geracao": 423,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11117.855
+    },
+    {
+      "geracao": 424,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11182.36
+    },
+    {
+      "geracao": 425,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10672.14
+    },
+    {
+      "geracao": 426,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10827.46
+    },
+    {
+      "geracao": 427,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10947.71
+    },
+    {
+      "geracao": 428,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11442.915
+    },
+    {
+      "geracao": 429,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11692.15
+    },
+    {
+      "geracao": 430,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10806.26
+    },
+    {
+      "geracao": 431,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11006.52
+    },
+    {
+      "geracao": 432,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10587.595
+    },
+    {
+      "geracao": 433,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11296.7
+    },
+    {
+      "geracao": 434,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11650.505
+    },
+    {
+      "geracao": 435,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11975.52
+    },
+    {
+      "geracao": 436,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11392.57
+    },
+    {
+      "geracao": 437,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11930.855
+    },
+    {
+      "geracao": 438,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11480.83
+    },
+    {
+      "geracao": 439,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11385.185
+    },
+    {
+      "geracao": 440,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11964.83
+    },
+    {
+      "geracao": 441,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11300.415
+    },
+    {
+      "geracao": 442,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11574.235
+    },
+    {
+      "geracao": 443,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11148.86
+    },
+    {
+      "geracao": 444,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11364.615
+    },
+    {
+      "geracao": 445,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11444.755
+    },
+    {
+      "geracao": 446,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10879.365
+    },
+    {
+      "geracao": 447,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10940.705
+    },
+    {
+      "geracao": 448,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10731.215
+    },
+    {
+      "geracao": 449,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10886.08
+    },
+    {
+      "geracao": 450,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11551.0
+    },
+    {
+      "geracao": 451,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11256.495
+    },
+    {
+      "geracao": 452,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11637.17
+    },
+    {
+      "geracao": 453,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11082.735
+    },
+    {
+      "geracao": 454,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11701.695
+    },
+    {
+      "geracao": 455,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11556.7
+    },
+    {
+      "geracao": 456,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11566.685
+    },
+    {
+      "geracao": 457,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10932.895
+    },
+    {
+      "geracao": 458,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10612.37
+    },
+    {
+      "geracao": 459,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11181.695
+    },
+    {
+      "geracao": 460,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11370.67
+    },
+    {
+      "geracao": 461,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11540.345
+    },
+    {
+      "geracao": 462,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10747.85
+    },
+    {
+      "geracao": 463,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11117.305
+    },
+    {
+      "geracao": 464,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10967.38
+    },
+    {
+      "geracao": 465,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11390.515
+    },
+    {
+      "geracao": 466,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11230.14
+    },
+    {
+      "geracao": 467,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11605.28
+    },
+    {
+      "geracao": 468,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11350.215
+    },
+    {
+      "geracao": 469,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11505.395
+    },
+    {
+      "geracao": 470,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11740.15
+    },
+    {
+      "geracao": 471,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11645.46
+    },
+    {
+      "geracao": 472,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11740.03
+    },
+    {
+      "geracao": 473,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11089.92
+    },
+    {
+      "geracao": 474,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10989.81
+    },
+    {
+      "geracao": 475,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10641.67
+    },
+    {
+      "geracao": 476,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10220.705
+    },
+    {
+      "geracao": 477,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11179.805
+    },
+    {
+      "geracao": 478,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11320.185
+    },
+    {
+      "geracao": 479,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10995.915
+    },
+    {
+      "geracao": 480,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11071.02
+    },
+    {
+      "geracao": 481,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11410.135
+    },
+    {
+      "geracao": 482,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10999.96
+    },
+    {
+      "geracao": 483,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11175.74
+    },
+    {
+      "geracao": 484,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10945.735
+    },
+    {
+      "geracao": 485,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10735.835
+    },
+    {
+      "geracao": 486,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10580.78
+    },
+    {
+      "geracao": 487,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10886.145
+    },
+    {
+      "geracao": 488,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10017.56
+    },
+    {
+      "geracao": 489,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 10606.91
+    },
+    {
+      "geracao": 490,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11071.195
+    },
+    {
+      "geracao": 491,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 12060.34
+    },
+    {
+      "geracao": 492,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11136.07
+    },
+    {
+      "geracao": 493,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11041.31
+    },
+    {
+      "geracao": 494,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11386.165
+    },
+    {
+      "geracao": 495,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11744.77
+    },
+    {
+      "geracao": 496,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11560.705
+    },
+    {
+      "geracao": 497,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11271.0
+    },
+    {
+      "geracao": 498,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11464.775
+    },
+    {
+      "geracao": 499,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11230.825
+    },
+    {
+      "geracao": 500,
+      "melhor_fitness": 192,
+      "melhor_conflitos": 0,
+      "media_fitness": 11015.89
+    }
+  ]
+}
