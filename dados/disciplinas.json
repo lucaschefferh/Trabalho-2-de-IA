@@ -1,0 +1,47 @@
+{
+  "descricao": "Matriz e docentes de Ciencia da Computacao da UTFPR campus Santa Helena, 2026/2, fornecidos pelo usuario. Foi selecionada a optativa Empreendedorismo. Os pre-requisitos foram inferidos pela sequencia curricular porque a tabela fornecida nao os informa.",
+  "fonte_consultada": "Tabela Matriz e Docentes COCIC-SH 2026/2 fornecida pelo usuario",
+  "dias": ["Segunda", "Terca", "Quarta", "Quinta", "Sexta", "Sabado"],
+  "horarios": ["07:30-08:20", "08:20-09:10", "09:10-10:00", "10:20-11:10", "11:10-12:00", "12:00-12:50", "13:00-13:50", "13:50-14:40", "14:40-15:30", "15:50-16:40", "16:40-17:30", "17:30-18:20"],
+  "disponibilidade_professores": {
+    "Frank": [0, 1],
+    "Thiago Franca Naves": [0, 1],
+    "Agnaldo da Costa": [3, 4]
+  },
+  "recursos": {
+    "alunos_por_turma": 40,
+    "salas_aula": [40, 40, 40, 40, 40, 40],
+    "laboratorios": [20, 20, 20, 40, 40, 40],
+    "max_aulas_matematica_dia": 4,
+    "max_aulas_laboratorio_dia": 6
+  },
+  "disciplinas": [
+    {"codigo":"CC1AED1","nome":"Algoritmos e Estrutura de Dados I","periodo":1,"aulas_semanais":6,"professor":"Anderson Brilhador","pre_requisitos":[]},
+    {"codigo":"CC1ICC","nome":"Introducao a Ciencia da Computacao","periodo":1,"aulas_semanais":3,"professor":"Giuvane Conti","pre_requisitos":[]},
+    {"codigo":"CC1MBD","nome":"Modelagem de Banco de Dados","periodo":1,"aulas_semanais":4,"professor":"Leiliane Pereira de Rezende","pre_requisitos":[]},
+    {"codigo":"HU1LA","nome":"Linguagem Academica","periodo":1,"aulas_semanais":3,"professor":"Vera Lucia Vasilevski dos Santos Araujo","pre_requisitos":[]},
+    {"codigo":"MA1FM","nome":"Fundamentos de Matematica","periodo":1,"aulas_semanais":4,"professor":"Joao Augusto Navarro Cossich","pre_requisitos":[]},
+    {"codigo":"MA1LM","nome":"Logica Matematica","periodo":1,"aulas_semanais":3,"professor":"Davi Marcondes Rocha","pre_requisitos":[]},
+
+    {"codigo":"CC2AED2","nome":"Algoritmos e Estrutura de Dados II","periodo":2,"aulas_semanais":4,"professor":"Djonatham Caua Fritzen Christ","pre_requisitos":["CC1AED1"]},
+    {"codigo":"CC2CLD","nome":"Circuitos Logicos Digitais","periodo":2,"aulas_semanais":4,"professor":"Gloria Patricia Lopez Sepulveda","pre_requisitos":["MA1LM"]},
+    {"codigo":"CC2ER","nome":"Engenharia de Requisitos","periodo":2,"aulas_semanais":4,"professor":"Davi Marcondes Rocha","pre_requisitos":[]},
+    {"codigo":"CC2POO","nome":"Programacao Orientada a Objetos","periodo":2,"aulas_semanais":4,"professor":"Giuvane Conti","pre_requisitos":["CC1AED1"]},
+    {"codigo":"MA2MA","nome":"Matematica Aplicada","periodo":2,"aulas_semanais":4,"professor":"Evandro Alves Nakajima","pre_requisitos":["MA1FM"]},
+    {"codigo":"OPHE","nome":"Empreendedorismo","periodo":2,"aulas_semanais":2,"professor":"Paula Regina Zarelli","pre_requisitos":[],"optativa":true},
+
+    {"codigo":"CC3AED3","nome":"Algoritmos e Estrutura de Dados III","periodo":3,"aulas_semanais":4,"professor":"Thiago Franca Naves","pre_requisitos":["CC2AED2"]},
+    {"codigo":"CC3AOC","nome":"Arquitetura e Organizacao de Computadores","periodo":3,"aulas_semanais":6,"professor":"Djonatham Caua Fritzen Christ","pre_requisitos":["CC2CLD"]},
+    {"codigo":"CC3ES","nome":"Engenharia de Software","periodo":3,"aulas_semanais":4,"professor":"Wellington de Souza Ferreira","pre_requisitos":["CC2ER"]},
+    {"codigo":"CC3PI1","nome":"Projeto Integrador I: Computacao e Educacao","periodo":3,"aulas_semanais":12,"professor":"Agnaldo da Costa","pre_requisitos":["CC2POO"],"online":true},
+    {"codigo":"MA3AL","nome":"Algebra Linear","periodo":3,"aulas_semanais":3,"professor":"Evandro Alves Nakajima","pre_requisitos":["MA1FM"]},
+    {"codigo":"MA3CA","nome":"Calculo Aplicado","periodo":3,"aulas_semanais":4,"professor":"Vanderlea de Lima Inaba","pre_requisitos":["MA2MA"]},
+
+    {"codigo":"CC4IHC","nome":"Interacao Humano Computador","periodo":4,"aulas_semanais":4,"professor":"Wellington de Souza Ferreira","pre_requisitos":["CC3ES"]},
+    {"codigo":"CC4LBD","nome":"Laboratorio de Banco de Dados","periodo":4,"aulas_semanais":4,"professor":"Leiliane Pereira de Rezende","pre_requisitos":["CC1MBD"]},
+    {"codigo":"CC4PO","nome":"Pesquisa e Ordenacao","periodo":4,"aulas_semanais":4,"professor":"Gloria Patricia Lopez Sepulveda","pre_requisitos":["CC3AED3"]},
+    {"codigo":"CC4RC","nome":"Redes de Computadores","periodo":4,"aulas_semanais":4,"professor":"Agnaldo da Costa","pre_requisitos":[]},
+    {"codigo":"CC4SO","nome":"Sistemas Operacionais","periodo":4,"aulas_semanais":4,"professor":"Agnaldo da Costa","pre_requisitos":["CC3AOC"]},
+    {"codigo":"MA4PE","nome":"Probabilidade e Estatistica","periodo":4,"aulas_semanais":4,"professor":"Joao Augusto Navarro Cossich","pre_requisitos":["MA2MA"]}
+  ]
+}
